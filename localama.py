@@ -11,7 +11,6 @@ load_dotenv()
 
 
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_API_KEY"]="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"
 os.environ["LANGCHAIN_PROJECT"]="Tutorial1"
 
 prompt=ChatPromptTemplate.from_messages(
